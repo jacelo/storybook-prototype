@@ -2,7 +2,7 @@ import React from 'react';
 
 import { userEvent, within } from '@storybook/testing-library';
 
-import { Button } from './Button';
+import Button from '../components/Button';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -29,6 +29,7 @@ PrimaryWithFocusState.args = {
   primary: true,
   label: 'Button',
 };
+
 PrimaryWithFocusState.play = async ({ canvasElement }) => {
   // Starts querying the component from its root
   const canvas = within(canvasElement);
