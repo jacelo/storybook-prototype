@@ -5,6 +5,6 @@ import reportWebVitals from './reportWebVitals';
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 
-export * from './components/Button';
-export * from './components/Header';
-export * from './components/Page';
+export { Button } from './components/Button';
+export { Header } from './components/Header';
+export { Page } from './components/Page';

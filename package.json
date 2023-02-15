@@ -1,5 +1,5 @@
 {
-  "name": "@jacelo/cw-storybook-prototype",
+  "name": "cw-storybook-prototype",
   "version": "0.1.0",
   "private": true,
   "main": "dist/index.js",
@@ -80,7 +80,7 @@
     "webpack": "^5.75.0"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "cw-storybook@0.1.0",
+  "_id": "cw-storybook-prototype@0.1.0",
   "repository": "https://github.com/jacelo/storybook-prototype.git",
   "author": "June Andrea Celo <june.celo@gmail.com>",
   "license": "MIT"
